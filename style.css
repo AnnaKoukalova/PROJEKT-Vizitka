@@ -16,14 +16,30 @@ tlačítko Facebook aktivní: #2b406e
 
 body {
         background-color: #b2bec3;
+        font-family: Nunito;
     }
 
 h1 {
         color:  #d63031;
+        padding: 30px;
+        font-size: 36px;
+        font-weight: bold;
+        font-family: Nunito;
+        text-align: left;
+
     }
 
-.visitka {
-    background-color: white;
-    box-sizing:border-box;
-    
-}
+section {
+            background-color: white;
+            box-sizing:border-box;
+            box-shadow: 0 0 0 rgba(0,0,0,0.7);
+            position:absolute;
+            margin-top: 150px;
+            weight: 550px;
+            border-radius: 10px;
+            right: 25%;
+            left: 25%;
+
+        }
+
+        
